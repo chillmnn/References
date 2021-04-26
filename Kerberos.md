@@ -22,3 +22,19 @@
 
 <B>Privilege Attribute Certificate (PAC)</B> - The PAC holds all of the user's relevant information, it is sent along with the TGT to the KDC to be signed by the Target LT Key and the KDC LT Key in order to validate the user.
 
+### Attack Privilege Requirements -
+
+<B>Kerbrute Enumeration</B> - No domain access required
+
+<B>Pass the Ticket</B> - Access as a user to the domain required
+
+<B>Kerberoasting</B> - Access as any user required
+
+<B>AS-REP Roasting</B> - Access as any user required
+
+<B>Golden Ticket</B> - Full domain compromise (domain admin) required 
+
+<B>Silver Ticket</B> - Service hash required 
+
+<B>Skeleton Key</B> - Full domain compromise (domain admin) required
+
