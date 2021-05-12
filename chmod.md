@@ -16,7 +16,7 @@ Digits that control read, write or execute for each user, group or everyone else
 | 6 | File can be written to and read |
 | 7 | File can be read, written to, and executed |
 
-Example usage: ``` chmod 431 <file> ```
-* 4 User can read the file.
-* 3 Group can execute and read the file.
+Example usage: ``` chmod 341 <file> ```
+* 3 User can execute and write to the file.
+* 4 Group can read the file.
 * 1 Everyone else can execute the file.
