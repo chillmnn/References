@@ -1,12 +1,11 @@
 # CHMOD
 
-##
+Permissions are divided into three sections. User, Groups, Everyone Else.
+| RWX | RWX | RWX |
+|-----|-----|-----|
+|  U |  G |  EE |
 
-RWX | RWX | RWX
-
-USER|GROUP|EVERYONE ELSE
-
-
+Digits that control read, write or execute for each user, group or everyone else.
 | Digit | Meaning |
 |-------|---------|
 | 1 |	File can be executed |
@@ -16,3 +15,8 @@ USER|GROUP|EVERYONE ELSE
 | 5 | File can be read and executed |
 | 6 | File can be written to and read |
 | 7 | File can be read, written to, and executed |
+
+Example usage: ``` chmod 431 <file> ```
+* 4 User can read the file.
+* 3 Group can execute and read the file.
+* 1 Everyone else can execute the file.
