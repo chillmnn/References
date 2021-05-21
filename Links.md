@@ -1,16 +1,10 @@
 ### Pen Testing Standards and Frameworks
-* 
-<a href="http://www.ncsc.gov.uk/articles/check-fundamental-principles">NCSC.gov.uk</a>
+* <a href="http://www.ncsc.gov.uk/articles/check-fundamental-principles">CHECK Framework</a>
 
-* 
-<a href="url">link text</a>
-http://www.owasp.org/
-* 
-<a href="url">link text</a>
-https://www.isecom.org/research.html#content4-9v
-* 
-<a href="url">link text</a>
-http://www.pentest-standard.org/
-* 
-<a href="url">link text</a>
-NIST 800-115
+* <a href="http://www.owasp.org/">The Open Web Application Security Project (OWASP) Testing Framework</a>
+
+* <a href="https://www.isecom.org/research.html#content4-9v">Open Source Security Testing Methodology Manual (OSSTMM)</a>
+
+* <a href="http://www.pentest-standard.org/">Penetration Testing Execution Standard (PTES)</a>
+
+* <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf">NIST SP 800-115</a>
