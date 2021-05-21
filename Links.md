@@ -1,5 +1,5 @@
 ### Pen Testing Standards and Frameworks
-* <a href="http://www.ncsc.gov.uk/articles/check-fundamental-principles" target="_blank">CHECK Framework</a>
+* <a href="http://www.ncsc.gov.uk/articles/check-fundamental-principles">CHECK Framework</a>
 
 * <a href="http://www.owasp.org/">The Open Web Application Security Project (OWASP) Testing Framework</a>
 
