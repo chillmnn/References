@@ -37,8 +37,8 @@
 ### Common ports and tools used for enumeration.
 | Port | Protocol and Service | Tool Examples | Comments |
 |------|----------------------|---------------|----------|
-| TCP 21 | FTP | FTP file server | Telnet & FTP clients, nmap ftp-anon.nse, ftp-brute.nse, Metasploit modules: ftp/anonymous, ftp_login, ftp_version. | Identify FTP servers, versions, and authentication requirements (including anonymous logins). |
-| TCP 22 | SSH | SSH server | nmap, PuTTY/SSH clients, nmap ssh-brute.nse, ssh-run.nse, Metasploit modules: ssh_login, ssh_login_pubkey. | Linux servers, routers, switches, other network devices, jailbroken iPhones. |
+| TCP 21 | FTP FTP file server | Telnet & FTP clients, nmap ftp-anon.nse, ftp-brute.nse, Metasploit modules: ftp/anonymous, ftp_login, ftp_version. | Identify FTP servers, versions, and authentication requirements (including anonymous logins). |
+| TCP 22 | SSH SSH server | nmap, PuTTY/SSH clients, nmap ssh-brute.nse, ssh-run.nse, Metasploit modules: ssh_login, ssh_login_pubkey. | Linux servers, routers, switches, other network devices, jailbroken iPhones. |
 
 TCP 23
 	
