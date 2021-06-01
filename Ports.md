@@ -41,71 +41,11 @@
 | TCP 22 | SSH SSH server | nmap, PuTTY/SSH clients, nmap ssh-brute.nse, ssh-run.nse, Metasploit modules: ssh_login, ssh_login_pubkey. | Linux servers, routers, switches, other network devices, jailbroken iPhones. |
 | TCP 23 | telnet Telnet server | PuTTY/telnet clients, nmap telnet-brute.nse, telnet-ntlm-info.nse, Metasploit telnet_login, telnet_version modules. | Linux servers, routers, switches, other network devices. |
 | TCP 25 | SMTP Email server | PuTTY/telnet clients, nmap smtp-enum-users.nse, smtp-commands.nse, smtp-open-relay.nse, smtp-brute.nse, Metasploit smtp_enum, smtp_version modules. | Extract email addresses. Enumerate SMTP server information. Search for open relays. |
-
-TCP 53
-	
-
-DNS
-
-DNS
-	
-
-dig, nslookup, nmap dns-brute.nse, Metasploit enum_dns module.
-	
-
-Elicit DNS zone transfers. Discover DNS subdomains.
-
-TCP 80
-	
-
-HTTP
-
-Web server
-	
-
-PuTTY/telnet clients, dirbuster, nmap http-enum.nse, http-title.nse, http-sitemap-generator.nse, Metasploit modules: http_cert, dir_listing, dir_scanner, dir_webdav_unicode_bypass,enum_wayback, files_dir, http_login, http/ssl, http_version, webdav_scanner, webdav_website_content.
-	
-
-Manually request web pages, enumerate directories, files, WebDAV features, versions, and more.
-
-TCP 135, TCP 111
-	
-
-RPC
-
-Microsoft DCE/RPC Locator Service, *nix portmapper service
-	
-
-nmap rpcinfo.nse, rpc-grind.nse, msrpc-enum.nse, Metasploit dcerpc modules: endpoint_mapper, hidden, management, tcp_dcerpc_auditor.
-	
-
-Query and manipulate Remote Procedure Call (RPC)-based services such as Windows DCOM, and *nix NFS, nlockmgr, quotad, and mountd.
-
-TCP 137
-	
-
-NetBIOS
-
-NetBIOS Name Service
-	
-
-nbtscan, nmap smb-enum-shares.nse, smb-enumdomains.nse, smb-os-discovery.nse.
-	
-
-List NetBIOS computer, user, group, workgroup, and domain names, domain controller roles, file and print sharing services, Microsoft Exchange services.
-
-TCP 139
-	
-
-SMB
-
-NetBIOS Session Service (SMB file and print service)
-	
-
-enum.exe (Windows), enum4linux.pl, smbclient, nmap smb-enum-shares.nse, smb-os-discovery.nse, Metasploit modules: smb_enumshares, smb/smb2, smb_version.
-	
-
-Retrieve directory information, list and transfer files. NSE scripts might not work on newer machines.
+| TCP 53 | DNS | dig, nslookup, nmap dns-brute.nse, Metasploit enum_dns module. | Elicit DNS zone transfers. Discover DNS subdomains. |
+| TCP 80 | HTTP Web server | PuTTY/telnet clients, dirbuster, nmap http-enum.nse, http-title.nse, http-sitemap-generator.nse, Metasploit modules: http_cert, dir_listing, dir_scanner, dir_webdav_unicode_bypass,enum_wayback, files_dir, http_login, http/ssl, http_version, webdav_scanner, webdav_website_content. | Manually request web pages, enumerate directories, files, WebDAV features, versions, and more. |
+| TCP 135, TCP 111 | RPC Microsoft DCE/RPC Locator Service, Liniux portmapper service | nmap rpcinfo.nse, rpc-grind.nse, msrpc-enum.nse, Metasploit dcerpc modules: endpoint_mapper, hidden, management, tcp_dcerpc_auditor. | Query and manipulate Remote Procedure Call (RPC)-based services such as Windows DCOM, and Linux NFS, nlockmgr, quotad, and mountd. |
+| TCP 137 | NetBIOS NetBIOS Name Service | nbtscan, nmap smb-enum-shares.nse, smb-enumdomains.nse, smb-os-discovery.nse. | List NetBIOS computer, user, group, workgroup, and domain names, domain controller roles, file and print sharing services, Microsoft Exchange services. |
+| TCP 139 | SMB NetBIOS Session Service (SMB file and print service) | enum.exe (Windows), enum4linux.pl, smbclient, nmap smb-enum-shares.nse, smb-os-discovery.nse, Metasploit modules: smb_enumshares, smb/smb2, smb_version. | Retrieve directory information, list and transfer files. NSE scripts might not work on newer machines. |
 
 UDP 161
 	
