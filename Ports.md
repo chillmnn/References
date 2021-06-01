@@ -46,55 +46,7 @@
 | TCP 135, TCP 111 | RPC Microsoft DCE/RPC Locator Service, Liniux portmapper service | nmap rpcinfo.nse, rpc-grind.nse, msrpc-enum.nse, Metasploit dcerpc modules: endpoint_mapper, hidden, management, tcp_dcerpc_auditor. | Query and manipulate Remote Procedure Call (RPC)-based services such as Windows DCOM, and Linux NFS, nlockmgr, quotad, and mountd. |
 | TCP 137 | NetBIOS NetBIOS Name Service | nbtscan, nmap smb-enum-shares.nse, smb-enumdomains.nse, smb-os-discovery.nse. | List NetBIOS computer, user, group, workgroup, and domain names, domain controller roles, file and print sharing services, Microsoft Exchange services. |
 | TCP 139 | SMB NetBIOS Session Service (SMB file and print service) | enum.exe (Windows), enum4linux.pl, smbclient, nmap smb-enum-shares.nse, smb-os-discovery.nse, Metasploit modules: smb_enumshares, smb/smb2, smb_version. | Retrieve directory information, list and transfer files. NSE scripts might not work on newer machines. |
-
-UDP 161
-	
-
-SNMP
-
-SNMP
-	
-
-getif, SolarWinds NPM, PRTG, WhatsUp Gold, Nagios Core, Spiceworks, Observium, nmap snmp-info.nse, snmp-brute.nse, snmp-interfaces.nse, snmp-processes.nse, Metasploit snmp modules: snmp_enum, snmp_enumusers, snmp_enumshares, snmp_login.
-	
-
-Obtain information on dozens of data objects depending on device. Targets must have SNMP agent enabled; you must know the community string devices are using (can be sniffed).
-
-TCP/UDP 389
-	
-
-LDAP
-
-Microsoft Active Directory
-	
-
-Active Directory Users and Computers, ntdsutil.exe, OpenLDAP, LDAP Admin, LDP.exe, nmap ldap-search.nse, Metasploit module: enum_ad_computers.
-	
-
-Retrieve a wide range of information from Active Directory. Non-privileged users can query Active Directory for nearly all information. To capture password hashes, copy the database file ntds.dit using ntdsutil.exe, then use Windows Password Recovery Tool to extract the hashes.
-
-TCP 445
-	
-
-RPC
-
-Microsoft-DS Active Directory and SMB file sharing
-	
-
-rpcclient, Metasploit smb_login, smb_enumusers, & smb/psexec modules, nmap NSE smb-enum-* scripts, enum.exe, user2sid.exe, sid2user.exe, PowerShell, pstools.
-	
-
-Retrieve a very wide range of Microsoft computer and domain information.
-
-TCP 1433
-	
-
-SQL
-
-SQL Server
-	
-
-nmap mysql-info.nse, Metasploit modules: mssql_ping, mssql_enum, enum_domain_accounts, enum_sql_logins.
-	
-
-Locate and enumerate information including logins from Microsoft and MySQL SQL servers. 
+| UDP 161 | SNMP | getif, SolarWinds NPM, PRTG, WhatsUp Gold, Nagios Core, Spiceworks, Observium, nmap snmp-info.nse, snmp-brute.nse, snmp-interfaces.nse, snmp-processes.nse, Metasploit snmp modules: snmp_enum, snmp_enumusers, snmp_enumshares, snmp_login. | Obtain information on dozens of data objects depending on device. Targets must have SNMP agent enabled; you must know the community string devices are using (can be sniffed). |
+| TCP/UDP 389 | LDAP Microsoft Active Directory | Active Directory Users and Computers, ntdsutil.exe, OpenLDAP, LDAP Admin, LDP.exe, nmap ldap-search.nse, Metasploit module: enum_ad_computers. | Retrieve a wide range of information from Active Directory. Non-privileged users can query Active Directory for nearly all information. To capture password hashes, copy the database file ntds.dit using ntdsutil.exe, then use Windows Password Recovery Tool to extract the hashes. |
+| TCP 445 | RPC Microsoft-DS Active Directory and SMB file sharing | rpcclient, Metasploit smb_login, smb_enumusers, & smb/psexec modules, nmap NSE smb-enum-* scripts, enum.exe, user2sid.exe, sid2user.exe, PowerShell, pstools. | Retrieve a very wide range of Microsoft computer and domain information. |
+| TCP 1433 | SQL Server | nmap mysql-info.nse, Metasploit modules: mssql_ping, mssql_enum, enum_domain_accounts, enum_sql_logins. | Locate and enumerate information including logins from Microsoft and MySQL SQL servers. |
