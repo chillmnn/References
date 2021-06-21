@@ -6,3 +6,6 @@
 
 ### To search the system for these types of files run:
 ```find / -perm -u=s -type f 2>/dev/null```
+
+### Find all SUID/SGID executibles on Debian.
+```find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null```
