@@ -1,7 +1,7 @@
 ### ICMP Types
 
 | ICMP Code     | Type |   |
-| ----------- | ----------- | ----------- |
+| ----------- | ----------- | ------- |
 | 0 | Echo reply |
 | 1–2 | Unassigned |
 | 3 | Destination unreachable |
@@ -27,4 +27,4 @@
 | 6 | Alternate host address |
 | 7 | Unassigned |
 | 8 | Echo |
-| 9 | Router advertisement |
+| 9 | Router advertisement 
