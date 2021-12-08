@@ -27,4 +27,30 @@
 | 6 | Alternate host address |
 | 7 | Unassigned |
 | 8 | Echo |
-| 9 | Router advertisement 
+| 9 | Router advertisement |
+| 10 | Router selection |
+| 11 | Time exceeded |
+|  | Code | Meaning |
+|   | 0 | Time to live exceeded in transit |
+|   | 16 | Fragment reassembly time exceeded |
+| 12 | Parameter Problem |
+|  | Code | Meaning |
+|   | 0 | Pointer indicates the error |
+|   | 1 | Missing a required option |
+|   | 2 | Bad length |
+| 13 | Timestamp |
+| 14 | Timestamp reply |
+| 15 | Information request |
+| 16 | Information reply |
+| 17 | Address mask request |
+| 18 | Address mask reply |
+| 19–29 | Reserved |
+| 30 | Traceroute |
+| 31 | Datagram conversion error |
+| 32 | Mobile host redirect |
+| 33 | IPv6 Where-Are-You |
+| 34 | IPv6 I-Am-Here |
+| 35 | Mobile registration request |
+| 36 | Mobile registration reply |
+| 39 | SKIP |
+| 40–254 | N/A |
