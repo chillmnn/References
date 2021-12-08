@@ -5,7 +5,8 @@
 | 0 | Echo reply |
 | 1–2 | Unassigned |
 | 3 | Destination unreachable |
-Code Meaning
+| ----------- | ----------- |
+| Code | Meaning |
 0 Net unreachable
 1 Host unreachable
 2 Protocol unreachable
@@ -24,9 +25,9 @@ administratively prohibited
 13 Communication administratively prohibited
 14 Host precedence violation
 15 Precedence cutoff in effect
-4 Source quench
-5 Redirect
-6 Alternate host address
-7 Unassigned
-8 Echo
-9 Router advertisement
+| 4 | Source quench |
+| 5 | Redirect |
+| 6 | Alternate host address |
+| 7 | Unassigned |
+| 8 | Echo |
+| 9 | Router advertisement |
