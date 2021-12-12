@@ -67,7 +67,7 @@
 | TCP/5052           |           Telvent OASyS DNA           |
 | TCP/5065           |           Telvent OASyS DNA           |
 | TCP/5450           |           OSIsoft PI Server           |
-| TCP/UDP/9600       |           OMRON FINS protocol         |    
+| 9600 /TCP, UDP      |           OMRON FINS protocol         |    
 | TCP/10307          |            ABB Ranger 2003            |
 | TCP/10311          |            ABB Ranger 2003            |
 | TCP/10364 to 10365 |            ABB Ranger 2003            |
@@ -83,15 +83,15 @@
 | TCP/12645          |            ABB Ranger 2003            |
 | TCP/12647 to 12648 |            ABB Ranger 2003            |
 | TCP/13722          |            ABB Ranger 2003            |
-| TCP/UDP/11001      |      Johnson Controls Metasys N1      |
+| 11001 /TCP, UDP      |      Johnson Controls Metasys N1      |
 | TCP/12135 to 12137 |           Telvent OASyS DNA           |
 | TCP/13724          |            ABB Ranger 2003            |
 | TCP/13782 to 13783 |            ABB Ranger 2003            |
 | TCP/18000          |   Iconic Genesis32 GenBroker (TCP)    |
-| TCP/UDP/20000      |                 DNP3                  |
-| TCP/UDP/34962      |               PROFINET                |
-| TCP/UDP/34963      |               PROFINET                |
-| TCP/UDP/34964      |               PROFINET                |
+| 20000 /TCP, UDP     |                 DNP3                  |
+| 34962 /TCP, UDP     |               PROFINET                |
+| 34963 /TCP, UDP     |               PROFINET                |
+| 34964 /TCP, UDP     |               PROFINET                |
 | UDP/34980          |               EtherCAT                |
 | TCP/38589          |            ABB Ranger 2003            |
 | TCP/38593          |            ABB Ranger 2003            |
@@ -107,8 +107,8 @@
 | TCP/38971          |            ABB Ranger 2003            |
 | TCP/39129          |            ABB Ranger 2003            |
 | TCP/39278          |            ABB Ranger 2003            |
-| TCP/UDP/44818      |              EtherNet/IP              |
-| TCP/UDP/45678      |  Foxboro/Invensys Foxboro DCS AIMAPI  |
+| 44818 /TCP, UDP     |              EtherNet/IP              |
+| 45678 /TCP, UDP      |  Foxboro/Invensys Foxboro DCS AIMAPI  |
 | UDP/47808          |               BACnet/IP               |
 | TCP/50001 to 50016 |       Siemens Spectrum Power TG       |
 | TCP/50018 to 50020 |       Siemens Spectrum Power TG       |
@@ -117,7 +117,7 @@
 | TCP/50110 to 50111 |       Siemens Spectrum Power TG       |
 | UDP/55000 to 55002 |           FL-net Reception            |
 | UDP/55003          |          FL-net Transmission          |
-| TCP/UDP/55555      |  Foxboor/Invensys Foxboro DCS FoxAPI  |
+| 55555 /TCP, UDP     |  Foxboor/Invensys Foxboro DCS FoxAPI  |
 | TCP/56001 to 56099 |           Telvent OASyS DNA           |
 | TCP/62900          |               SNC GENe                |
 | TCP/62911          |               SNC GENe                |
