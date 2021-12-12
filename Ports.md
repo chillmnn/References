@@ -55,14 +55,14 @@
 
 | Protocol           |                 Ports                 |
 | ------------------ | :-----------------------------------: |
-| TCP/502            |              Modbus TCP               |
-| TCP/UDP/1089       |        Foundation Fieldbus HSE        |
-| TCP/UDP/1090       |        Foundation Fieldbus HSE        |
-| TCP/UDP/1091       |        Foundation Fieldbus HSE        |
-| TCP/UDP/1541       | Foxboro/Invensys Foxboro DCS Informix |
-| UDP/2222           |              EtherNet/IP              |
-| TCP/3480           |        OPC UA Discovery Server        |
-| TCP/UDP/4000       |        Emerson/Fisher ROC Plus        |
+| 502 /TCP            |              Modbus TCP               |
+| 1089 /TCP, UDP       |        Foundation Fieldbus HSE        |
+| 1090 /TCP, UDP    |        Foundation Fieldbus HSE        |
+| 1091 /TCP, UDP      |        Foundation Fieldbus HSE        |
+| 1541 /TCP, UDP     | Foxboro/Invensys Foxboro DCS Informix |
+| 2222 /UDP          |              EtherNet/IP              |
+| 480 /TCP          |        OPC UA Discovery Server        |
+| 4000 /TCP, UDP      |        Emerson/Fisher ROC Plus        |
 | UDP/5050 to 5051   |           Telvent OASyS DNA           |
 | TCP/5052           |           Telvent OASyS DNA           |
 | TCP/5065           |           Telvent OASyS DNA           |
