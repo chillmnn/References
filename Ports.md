@@ -64,49 +64,49 @@
 | 480 /TCP          |        OPC UA Discovery Server        |
 | 4000 /TCP, UDP      |        Emerson/Fisher ROC Plus        |
 | 5050-5051 /UDP   |           Telvent OASyS DNA           |
-| TCP/5052           |           Telvent OASyS DNA           |
-| TCP/5065           |           Telvent OASyS DNA           |
-| TCP/5450           |           OSIsoft PI Server           |
+| 5052 /TCP          |           Telvent OASyS DNA           |
+| 5065 /TCP          |           Telvent OASyS DNA           |
+| 5450 /TCP          |           OSIsoft PI Server           |
 | 9600 /TCP, UDP      |           OMRON FINS protocol         |    
-| TCP/10307          |            ABB Ranger 2003            |
-| TCP/10311          |            ABB Ranger 2003            |
-| TCP/10364 to 10365 |            ABB Ranger 2003            |
-| TCP/10407          |            ABB Ranger 2003            |
-| TCP/10409 to 10410 |            ABB Ranger 2003            |
-| TCP/10412          |            ABB Ranger 2003            |
-| TCP/10414 to 10415 |            ABB Ranger 2003            |
-| TCP/10428          |            ABB Ranger 2003            |
-| TCP/10431 to 10432 |            ABB Ranger 2003            |
-| TCP/10447          |            ABB Ranger 2003            |
-| TCP/10449 to 10450 |            ABB Ranger 2003            |
-| TCP/12316          |            ABB Ranger 2003            |
-| TCP/12645          |            ABB Ranger 2003            |
-| TCP/12647 to 12648 |            ABB Ranger 2003            |
-| TCP/13722          |            ABB Ranger 2003            |
+| 10307 /TCP         |            ABB Ranger 2003            |
+| 10311 /TCP         |            ABB Ranger 2003            |
+| 10364-10365 /TCP |            ABB Ranger 2003            |
+| 10407 /TCP         |            ABB Ranger 2003            |
+| 10409-10410 /TCP |            ABB Ranger 2003            |
+| 10412 /TCP         |            ABB Ranger 2003            |
+| 10414-10415 /TCP |            ABB Ranger 2003            |
+| 10428 /TCP         |            ABB Ranger 2003            |
+| 10431-10432 /TCP |            ABB Ranger 2003            |
+| 10447 /TCP         |            ABB Ranger 2003            |
+| 10449-10450 /TCP |            ABB Ranger 2003            |
+| 12316 /TCP         |            ABB Ranger 2003            |
+| 12645 /TCP          |            ABB Ranger 2003            |
+| 12647-12648 /TCP |            ABB Ranger 2003            |
+| 13722 /TCP         |            ABB Ranger 2003            |
 | 11001 /TCP, UDP      |      Johnson Controls Metasys N1      |
-| TCP/12135 to 12137 |           Telvent OASyS DNA           |
-| TCP/13724          |            ABB Ranger 2003            |
-| TCP/13782 to 13783 |            ABB Ranger 2003            |
-| TCP/18000          |   Iconic Genesis32 GenBroker (TCP)    |
+| 12135-12137 /TCP |           Telvent OASyS DNA           |
+| 13724 /TCP         |            ABB Ranger 2003            |
+| 13782-13783 /TCP |            ABB Ranger 2003            |
+| 18000 /TCP         |   Iconic Genesis32 GenBroker (TCP)    |
 | 20000 /TCP, UDP     |                 DNP3                  |
 | 34962 /TCP, UDP     |               PROFINET                |
 | 34963 /TCP, UDP     |               PROFINET                |
 | 34964 /TCP, UDP     |               PROFINET                |
 | 34980 /UDP         |               EtherCAT                |
-| TCP/38589          |            ABB Ranger 2003            |
-| TCP/38593          |            ABB Ranger 2003            |
-| TCP/38000 to 38001 |               SNC GENe                |
-| TCP/38011 to 38012 |               SNC GENe                |
-| TCP/38014 to 38015 |               SNC GENe                |
-| TCP/38200          |               SNC GENe                |
-| TCP/38210          |               SNC GENe                |
-| TCP/38301          |               SNC GENe                |
-| TCP/38400          |               SNC GENe                |
-| TCP/38600          |            ABB Ranger 2003            |
-| TCP/38700          |               SNC GENe                |
-| TCP/38971          |            ABB Ranger 2003            |
-| TCP/39129          |            ABB Ranger 2003            |
-| TCP/39278          |            ABB Ranger 2003            |
+| 38589 /TCP         |            ABB Ranger 2003            |
+| 38593 /TCP         |            ABB Ranger 2003            |
+| 38000-38001 /TCP |               SNC GENe                |
+| 38011-38012 /TCP |               SNC GENe                |
+| 38014-38015 /TCP |               SNC GENe                |
+| 38200 /TCP         |               SNC GENe                |
+| 38210 /TCP         |               SNC GENe                |
+| 38301 /TCP         |               SNC GENe                |
+| 38400 /TCP         |               SNC GENe                |
+| 38600 /TCP         |            ABB Ranger 2003            |
+| 38700 /TCP        |               SNC GENe                |
+| 38971 /TCP        |            ABB Ranger 2003            |
+| 39129 /TCP         |            ABB Ranger 2003            |
+| 39278 /TCP         |            ABB Ranger 2003            |
 | 44818 /TCP, UDP     |              EtherNet/IP              |
 | 45678 /TCP, UDP      |  Foxboro/Invensys Foxboro DCS AIMAPI  |
 | 47808 /UDP         |               BACnet/IP               |
