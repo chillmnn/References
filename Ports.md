@@ -63,7 +63,7 @@
 | 2222 /UDP          |              EtherNet/IP              |
 | 480 /TCP          |        OPC UA Discovery Server        |
 | 4000 /TCP, UDP      |        Emerson/Fisher ROC Plus        |
-| UDP/5050 to 5051   |           Telvent OASyS DNA           |
+| 5050-5051 /UDP   |           Telvent OASyS DNA           |
 | TCP/5052           |           Telvent OASyS DNA           |
 | TCP/5065           |           Telvent OASyS DNA           |
 | TCP/5450           |           OSIsoft PI Server           |
@@ -92,7 +92,7 @@
 | 34962 /TCP, UDP     |               PROFINET                |
 | 34963 /TCP, UDP     |               PROFINET                |
 | 34964 /TCP, UDP     |               PROFINET                |
-| UDP/34980          |               EtherCAT                |
+| 34980 /UDP         |               EtherCAT                |
 | TCP/38589          |            ABB Ranger 2003            |
 | TCP/38593          |            ABB Ranger 2003            |
 | TCP/38000 to 38001 |               SNC GENe                |
@@ -109,32 +109,32 @@
 | TCP/39278          |            ABB Ranger 2003            |
 | 44818 /TCP, UDP     |              EtherNet/IP              |
 | 45678 /TCP, UDP      |  Foxboro/Invensys Foxboro DCS AIMAPI  |
-| UDP/47808          |               BACnet/IP               |
-| TCP/50001 to 50016 |       Siemens Spectrum Power TG       |
-| TCP/50018 to 50020 |       Siemens Spectrum Power TG       |
-| UDP/50020 to 50021 |       Siemens Spectrum Power TG       |
-| TCP/50025 to 50028 |       Siemens Spectrum Power TG       |
-| TCP/50110 to 50111 |       Siemens Spectrum Power TG       |
-| UDP/55000 to 55002 |           FL-net Reception            |
-| UDP/55003          |          FL-net Transmission          |
+| 47808 /UDP         |               BACnet/IP               |
+| 50001-50016 /TCP |       Siemens Spectrum Power TG       |
+| 50018-50020 /TCP |       Siemens Spectrum Power TG       |
+| 50020-50021 /UDP |       Siemens Spectrum Power TG       |
+| 50025-50028 /TCP |       Siemens Spectrum Power TG       |
+| 50110-50111 /TCP |       Siemens Spectrum Power TG       |
+| 55000-55002 /UDP |           FL-net Reception            |
+| 55003 /UDP         |          FL-net Transmission          |
 | 55555 /TCP, UDP     |  Foxboor/Invensys Foxboro DCS FoxAPI  |
-| TCP/56001 to 56099 |           Telvent OASyS DNA           |
-| TCP/62900          |               SNC GENe                |
-| TCP/62911          |               SNC GENe                |
-| TCP/62924          |               SNC GENe                |
-| TCP/62930          |               SNC GENe                |
-| TCP/62938          |               SNC GENe                |
-| TCP/62956 to 62957 |               SNC GENe                |
-| TCP/62963          |               SNC GENe                |
-| TCP/62981 to 62982 |               SNC GENe                |
-| TCP/62985          |               SNC GENe                |
-| TCP/62992          |               SNC GENe                |
-| TCP/63012          |               SNC GENe                |
-| TCP/63027 to 63036 |               SNC GENe                |
-| TCP/63041          |               SNC GENe                |
-| TCP/63075          |               SNC GENe                |
-| TCP/63079          |               SNC GENe                |
-| TCP/63082          |               SNC GENe                |
-| TCP/63088          |               SNC GENe                |
-| TCP/63094          |               SNC GENe                |
-| TCP/65443          |               SNC GENe                |
+| 56001-56099 /TCP |           Telvent OASyS DNA           |
+| 62900 /TCP         |               SNC GENe                |
+| 62911 /TCP     |               SNC GENe                |
+| 62924 /TCP         |               SNC GENe                |
+| 62930 /TCP         |               SNC GENe                |
+| 62938 /TCP          |               SNC GENe                |
+| 62956-62957 |               SNC GENe                |
+| 62963 /TCP         |               SNC GENe                |
+| 62981-62982 /TCP |               SNC GENe                |
+| 62985 /TCP         |               SNC GENe                |
+| 62992 /TCP         |               SNC GENe                |
+| 63012 /TCP          |               SNC GENe                |
+| 63027-63036 /TCP |               SNC GENe                |
+| 63041 /TCP         |               SNC GENe                |
+| 63075 /TCP         |               SNC GENe                |
+| 63079 /TCP         |               SNC GENe                |
+| 63082 /TCP         |               SNC GENe                |
+| 63088 /TCP         |               SNC GENe                |
+| 63094 /TCP         |               SNC GENe                |
+| 65443 /TCP          |               SNC GENe                |
