@@ -6,18 +6,22 @@
 | 21 /TCP, UDP | FTP control |
 | 22 /TCP, UDP | SSH |
 | 23 /TCP, UDP | Telnet |
-| 25 /TCP, UDP | SMTP |
+| 25 /TCP, UDP | SMTP (outdated, username/pw must be enabled) |
+| 465 /TCP | SMTP (secure) |
+| 587 /TCP | SMTP (insecure, can be upgraded to secure) |
 | 53 /UDP | DNS |
 | 67 /TCP, UDP | DHCP server |
 | 68 /TCP, UDP | DHCP client |
 | 69 /TCP, UDP | TFTP |
 | 80 /TCP, UDP | HTTP |
 | 88 /TCP, UDP | Kerberos |
-| 110 /TCP, UDP | POP3 |
+| 110 /TCP, UDP | POP3 (insecure) |
+| 995, /TCP | POP3 (secured) |
 | 123 /TCP, UDP | NTP |
 | 135 /TCP, UDP | Microsoft EPMAP/RPC |
 | 136-139 /TCP, UDP | NetBIOS |
-| 143 /TCP | IMAP |
+| 143 /TCP | IMAP (insecure) |
+| 993 /TCP | IMAP (secure) |
 | 161 /UDP | SNMP |
 | 162 /TCP, UDP | SNMP traps |
 | 389 /TCP, UDP | LDAP |
